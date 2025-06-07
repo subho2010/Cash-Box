@@ -144,9 +144,9 @@ export default function ViewReceipts() {
   return (
     <div className="container mx-auto py-8 px-4">
       <div className="flex justify-between items-center mb-6">
-        <Link href="/">
+        <Link href="/accounts">
           <Button variant="outline">
-            <ArrowLeft className="mr-2 h-4 w-4" /> Back to Home
+            <ArrowLeft className="mr-2 h-4 w-4" /> Back to Dashboard
           </Button>
         </Link>
         <h1 className="text-2xl font-bold">Your Receipts</h1>
